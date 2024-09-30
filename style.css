@@ -1,0 +1,56 @@
+body {
+    background-image: url('https://cdnb.artstation.com/p/assets/images/images/047/721/643/large/rage4me-cyberpunk-2077-city-scenes-03-09.jpg?1648271402'); /* Altere para o URL da sua imagem */
+    background-size: 100%;
+    color: #D3D3E0; /* Cor clara para contraste */
+    font-family: Arial, sans-serif; /* Fonte simples */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1, p {
+    font-size: 1.2em; /* Ajuste o tamanho do texto conforme necessário */
+}
+
+button {
+    background-color: #6A5ACD; /* Azul moderado */
+    color: #FFFFFF; /* Texto claro */
+    border: 2px solid #9370DB; /* Roxo moderado */
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 1em; /* Tamanho do texto do botão */
+}
+
+button:hover {
+    background-color: #7B68EE; /* Azul mais claro ao passar o mouse */
+    transform: scale(1.05);
+}
+
+.passo {
+    display: none;
+    border: 1px solid #9370DB; /* Roxo moderado */
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro semi-transparente */
+    box-shadow: 0 0 15px rgba(147, 112, 219, 0.7); /* Sombra roxa */
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+    border: 2px solid #9370DB; /* Roxo moderado */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(147, 112, 219, 0.7); /* Sombra roxa */
+} 

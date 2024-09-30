@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <title>Night City: David e Lucy</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>David se vê no caos das ruas de Santo Domingo. Lembranças de sua vida anterior misturam-se com seu desejo de escapar da realidade, enquanto ele tenta encontrar Lucy.</p>
+            <button class="btn-proximo" data-proximo="1">Ir ao apartamento de Lucy</button>
+            <button class="btn-proximo" data-proximo="2">Visitar a gangue dos Edgerunners</button>
+        </div>
+        
+        <div class="passo" id="passo-1">
+            <p>No apartamento de Lucy, você encontra pistas sobre sua localização, mas também percebe que a Arasaka está atrás dela. O que você fará agora?</p>
+            <button class="btn-proximo" data-proximo="3">Procurar mais informações no computador</button>
+            <button class="btn-proximo" data-proximo="4">Sair em busca de ajuda</button>
+        </div>
+        
+        <div class="passo" id="passo-2">
+            <p>Na gangue dos Edgerunners em Watson, você é recebido com desconfiança. Eles podem ter informações cruciais sobre Lucy, mas você precisa provar seu valor.</p>
+            <button class="btn-proximo" data-proximo="5">Participar de uma missão com a gangue</button>
+            <button class="btn-proximo" data-proximo="6">Tentar convencê-los a ajudá-lo</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>O computador revela que Lucy está sendo mantida em um laboratório secreto da Arasaka em Corpo Plaza. Você precisa agir rapidamente.</p>
+            <button class="btn-proximo" data-proximo="7">Infiltrar-se no laboratório da Arasaka</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você sai em busca de ajuda, mas ao longo do caminho, percebe que está mais sozinho do que nunca. A sensação de desespero começa a tomar conta.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e acessar o computador</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Após completar a missão, você conquista a confiança da gangue. Eles revelam a localização de Lucy, mas você deve agir rápido.</p>
+            <button class="btn-proximo" data-proximo="7">Infiltrar-se no laboratório da Arasaka</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Convencendo a gangue a ajudá-lo, você consegue um grupo para a missão. Todos estão cientes dos riscos envolvidos.</p>
+            <button class="btn-proximo" data-proximo="7">Ir ao laboratório da Arasaka juntos</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No laboratório da Arasaka, a tensão está no ar. Você deve escolher entre hackear os sistemas de segurança ou procurar uma entrada secreta.</p>
+            <button class="btn-proximo" data-proximo="9">Hackear o sistema de segurança</button>
+            <button class="btn-proximo" data-proximo="10">Buscar uma entrada secreta</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você decide voltar ao apartamento de Lucy e encontra um chip com dados que podem ser a chave para encontrá-la.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar mais informações no computador</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O hack dá certo, mas você dispara alarmes. O tempo é curto, e você ouve passos se aproximando.</p>
+            <button class="btn-proximo" data-proximo="11">Procurar por Lucy rapidamente</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>A entrada secreta leva você a um corredor escuro. Você precisa ser rápido e discreto para encontrar Lucy.</p>
+            <button class="btn-proximo" data-proximo="11">Continuar buscando Lucy</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>Finalmente, você encontra Lucy em uma sala de contenção. Com um plano ousado, você deve libertá-la antes que os seguranças cheguem.</p>
+            <button class="btn-proximo" data-proximo="12">Libertar Lucy e escapar</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Você consegue libertar Lucy, mas a Arasaka não irá deixar isso barato. A fuga é intensa e cheia de perigos.</p>
+            <button class="btn-proximo" data-proximo="13">Fugir juntos e lutar contra a Arasaka</button>
+            <button class="btn-proximo" data-proximo="14">Distrair os seguranças para que Lucy escape</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <p>Após uma fuga desesperada, você e Lucy conseguem fugir, finalmente o sonho se realizou.</p>
+            <img src="Captura de tela 2024-09-27 224248.png" alt="David e Lucy juntos">
+        </div>
+
+        <div class="passo" id="passo-14">
+            <p>Com coragem, você se coloca entre Lucy e os seguranças, permitindo que ela escape. Você luta bravamente, mas a Arasaka é implacável. Lucy se vê forçada a fugir sozinha, levando a esperança de um futuro, mas deixando você para trás. Sua luta contra a opressão continua, mas a solidão pesa sobre você.</p>
+            <img src="finalneutro.jpg" alt="David se sacrificando">
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
